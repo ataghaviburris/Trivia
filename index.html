@@ -1,0 +1,99 @@
+﻿<!doctype html>
+<html lang="en">
+<!-- Author: Stu Dent
+     Created: Jan 7, 2016
+     Updated: Jan 21, 2016
+-->
+
+<!-- ======= HEAD ======= -->
+	<head>
+		<title>Trivia Game</title>
+		
+		<meta charset="utf-8">
+		<meta name="author" content="Stu Dent">
+		<meta name="description" content="My Frist Web Page"> 
+		<meta name="keywords" content="page, first, web, web page, practice, example">
+
+		<link href="css/grid.css" type="css/text" rel="stylesheet">
+		<link href="css/styles.css" type="css/text" rel="stylesheet">
+		
+		<script src="js/chkQuiz.js"></script>
+
+	</head>
+<!-- ======= End HEAD ======= -->
+
+<!-- ======= BODY ======= -->
+	<body class="grid">
+		<header class="group">
+			<h1 class="col col-100">My Trivia Game</h1>
+			<p class="col col-100">Read each question carefully, then choose the best possible answer</p>
+		</header>
+		
+		<main class="group">
+		
+			<form class="group">
+				<section class="col col-100">
+<!-- Question 1 -->				
+					<p class="col col-100"> This is question one</p>
+					
+					<input type="radio" class="col col-5" name="q1" id="q1-a" value="correct">
+					<label class="col col-95" for="q1-a">
+					A ) This is the right answer
+					</label>
+					
+					<input type="radio" class="col col-20" name="q1" id="q1-b" value="wrong">
+					<label class="col col-80" for="q1-b">
+					B ) This is possibly the right answer
+					</label>
+					
+					<input type="radio" class="col col-20" name="q1" id="q1-c" value="wrong">
+					<label class="col col-80" for="q1-c">
+					C ) This is could be the right answer
+					</label>
+<!-- Question 2 -->				
+					<p class="col col-100"> This is question two</p>
+					
+					<input type="radio" class="col col-20" name="2" id="q2-a" value="correct">
+					<label class="col col-80" for="q2-a">
+					A ) This is the right answer
+					</label>
+					
+					<input type="radio" class="col col-20" name="q2" id="q2-b" value="wrong">
+					<label class="col col-80" for="q2-b">
+					B ) This is possibly the right answer
+					</label>
+					
+					<input type="radio" class="col col-20" name="q2" id="q2-c" value="wrong">
+					<label class="col col-80" for="q2-c">
+					C ) This is could be the right answer
+					</label>					
+					
+<!-- SUBMIT BUTTON -->
+					<button type="submit" onclick="chkQuiz();">Submit</button>
+					
+				</section>
+			
+			
+			</form>
+		
+		</main>
+		
+		<footer class="group">
+			<section class="col col-100">
+				<p>Copyright &copy; 2016 - Designed by <a href="mailto:sdent@email.com">Stu Dent</a></p>
+			</section>
+		</footer>
+		
+
+	</body>
+<!-- ======= End BODY ======= -->
+</html>
+
+
+
+
+
+
+
+
+
